@@ -23,7 +23,7 @@
         _subtitleLabel = [[UILabel alloc] init];
         _subtitleLabel.backgroundColor = [UIColor clearColor];
         _subtitleLabel.font = self.titleLabel.font;
-        _subtitleLabel.textAlignment = UITextAlignmentCenter;
+        _subtitleLabel.textAlignment = NSTextAlignmentCenter;
         [self addSubview:_subtitleLabel];
         
         [self updateSubtitleLabel];
